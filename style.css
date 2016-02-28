@@ -21,9 +21,14 @@ body {
     padding-bottom: 5%;
 }
 
-a:visited, a:link {
+ul a:visited, ul a:link {
     text-decoration: none;
     color: white;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
 }
 
 h1 {
@@ -109,16 +114,27 @@ nav {
 #page {
     margin-left: 15%;
     margin-right: 15%;
-    height: 1000px;
+    height: 1200px;
     background: #F5F4EF;
 }
 
 #front-page {
     margin-left: 15%;
     margin-right: 15%;
-    height: 550px;
-    height: 29vw;
+    height: 700px;
+    height: 35vw;
     background: #F5F4EF;
+}
+
+#front-page ul {
+    margin-left: 4%;
+}
+
+#coord-photo  {
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 350px;
 }
 
 #front-page #text {
