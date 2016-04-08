@@ -38,7 +38,10 @@ h1 {
     font-size: 5vw;
     height:40%;
     font-style: Lato;
-    
+}
+
+header a {
+    text-decoration: none;
 }
 
 h2 {
@@ -114,7 +117,7 @@ nav {
 #page {
     margin-left: 15%;
     margin-right: 15%;
-    height: 1200px;
+    height: 1500px;
     background: #F5F4EF;
 }
 
@@ -130,11 +133,19 @@ nav {
     margin-left: 4%;
 }
 
+#parcours-photo {
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom:15px;
+    height: 60%;
+    width: 50%;
+}
+
 #coord-photo  {
     margin-top: 15px;
     margin-left: 15%;
     margin-right: 15%;
-    height: 350px;
+    height: 45%;
 }
 
 #front-page #text {
